@@ -16,4 +16,5 @@ end = '</li>'
 
 result = re.search('%s(.*)%s' % (start, end), src).group(1)
 
+print "hi"
 print(result)
